@@ -68,6 +68,6 @@ export default {
 
 <style scoped>
 .hello {
-  height: 600px;
+  height: 540px;
 }
 </style>

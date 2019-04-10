@@ -1,5 +1,5 @@
 <template>
-  <div class="common-table my-table-main">
+  <div class="common-table">
     <Table
       :columns="columns"
       :data="data"
@@ -73,34 +73,32 @@ export default {
 </script>
 
 <style>
-  .my-table-main .ivu-table td,
-  .my-table-main .ivu-table th {
+  .common-table .ivu-table td,
+  .common-table .ivu-table th {
     border: none !important;
   }
 
-  .my-table-main .ivu-table::before,
-  .my-table-main .ivu-table::after {
+  .common-table .ivu-table::before,
+  .common-table .ivu-table::after {
     background-color: transparent;
   }
 
-  .my-table-main .ivu-table-body {
+  .common-table .ivu-table-body {
     height: calc(100% - 50px);
     overflow-y: auto;
     overflow-x: hidden;
   }
 </style>
-<style lang="less" scoped>
+<style scoped>
   .common-table {
     position: relative;
     height: 100%;
-
-    .ivu-table-wrapper {
-      height: 100%;
-      border: none !important;
-    }
-
-    .ivu-page {
-      margin-top: 10px;
-    }
+  }
+  .common-table .ivu-table-wrapper {
+    height: 100%;
+    border: none !important;
+  }
+  .common-table .ivu-page {
+    margin-top: 10px;
   }
 </style>

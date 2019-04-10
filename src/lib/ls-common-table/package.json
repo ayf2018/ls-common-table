@@ -1,0 +1,20 @@
+{
+  "name": "ls-common-table",
+  "version": "1.0.1",
+  "description": "基于 Vue 和 iView 的表格与分页组合",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue",
+    "iView",
+    "table",
+    "page"
+  ],
+  "author": "anyf",
+  "license": "ISC"
+}
