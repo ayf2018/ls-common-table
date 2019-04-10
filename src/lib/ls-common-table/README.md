@@ -1,5 +1,11 @@
 # ls-common-table
-基于 Vue 和 iView 的表格与分页组合
+基于 Vue 和 iView 的表格与分页组合.
+
+**注意：**因为使用的iView的组件，所以项目中的入口文件main.js中要引入iView。像下面这样：
+
+    import iView from 'iview'
+    import 'iview/dist/styles/iview.css'
+    Vue.use(iView)
 
 #### 插件安装
 
